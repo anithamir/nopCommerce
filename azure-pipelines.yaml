@@ -6,6 +6,6 @@ trigger:
 steps:
   - task: DotNetCoreCLI@2
     inputs:
-      command: 'build'
+      command: build
       projects: src/NopCommerce.sln
       configuration: Release
