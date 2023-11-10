@@ -1,5 +1,7 @@
 ---
 pool: default
+trigger:
+  - master
 
 steps:
   - task: DotNetCoreCLI@2
