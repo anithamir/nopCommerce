@@ -1,0 +1,9 @@
+---
+pool: default
+
+steps:
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'build'
+      projects: src/NopCommerce.sln
+      configuration: Release
