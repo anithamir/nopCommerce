@@ -8,4 +8,4 @@ steps:
     inputs:
       command: build
       projects: src/NopCommerce.sln
-      configuration: Release
+      configuration: release
